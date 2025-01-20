@@ -6,7 +6,6 @@ import {
   CardFooter,
   CardHeader,
 } from "@/components/ui/card";
-import { Social } from "@/components/auth/social";
 import Header from "@/components/auth/header";
 import { BackButton } from "@/components/auth/back-button";
 
@@ -23,7 +22,6 @@ export const CardWrapper = ({
   headerLabel,
   backButtonLabel,
   backButtonHref,
-  showSocial,
 }: CardWrapperProps) => {
   return (
     <Card className="w-[400px] shadow-md">
